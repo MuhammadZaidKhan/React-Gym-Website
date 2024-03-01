@@ -1,0 +1,93 @@
+/* custom.css */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-stroke {
+    -webkit-text-fill-color: transparent;
+    /* Will hide the text content */
+    -webkit-text-stroke-width: 1px;
+    /* Width of the stroke */
+    -webkit-text-stroke-color: #FEE715;
+    /* Color of the stroke (yellow in this case) */
+}
+
+/* custom.css */
+.second-text {
+    position: relative;
+    top: 30px;
+    /* Adjust as needed */
+    left: 100px;
+    /* Adjust as needed */
+}
+
+.bg-color {
+    background: #373737;
+
+}
+
+/* custom.css */
+.custom-box {
+    position: relative;
+    width: 320px;
+    height: 468px;
+    top: 72px;
+    left: 122px;
+    border-radius: 31px;
+}
+
+.text-heading {
+    position: relative;
+    top: 70px;
+    left: 28%;
+    width: 60%;
+}
+
+.p-div {
+    position: absolute;
+    width: 411px;
+    height: 212px;
+    top: calc(865px);
+    /* Adjust top position based on H1 height */
+    left: 660px;
+}
+
+.p-class {
+    font-weight: 275;
+    font-size: 14px;
+    line-height: 24.5px;
+    /* color: #FFF; */
+    letter-spacing: -0.5%;
+}
+
+.button-custom {
+    margin-right: 10px;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+
+.z-container-1 {
+    margin-left: 200px;
+}
+
+.z-container {
+    z-index: 2;
+    /* border: 2px solid gray; */
+    background: transparent;
+    margin-left: 15%;
+    height: 110px;
+    width: 600px;
+    padding-left: 50px;
+    border-radius: 20px;
+}
+
+.product-container {
+    border: 1px solid red;
+    width: 1000px;
+    height: 200px;
+    margin-bottom: 5px;
+}
