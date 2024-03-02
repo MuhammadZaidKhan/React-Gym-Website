@@ -3,12 +3,12 @@ import Navbar from './Navbar';
 import Main from "./Main";
 import Rectangle from "./Rectangle"
 import backgroundImage from '../Assets/image 6.png';
-import Image from '../Assets/Div.png';
+// import Image from '../Assets/Div.png';
 import Section from './Section';
 
 const Home = () => {
     return (
-        <div className="relative">
+        <div className="relative" style={{ overflowX: 'hidden' }}>
             <img
                 src={backgroundImage}
                 alt="Background"

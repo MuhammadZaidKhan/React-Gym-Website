@@ -1,14 +1,15 @@
 import React from 'react';
 import man from '../Assets/Rectangle 26.png';
+import image1 from '../Assets/image 1.png';
+import image2 from '../Assets/image 4.png';
+import image3 from '../Assets/image 5.png';
 
 const Section = () => {
     return (
         <div className="bg-color min-h-screen">
             <div className="flex">
-                <div className=''>
-                    <div className="custom-box relative">
-                        <img src={man} alt="Background" />
-                    </div>
+                <div className="custom-box relative mt-36">
+                    <img src={man} alt="Background" />
                 </div>
 
                 <div class="text-heading">
@@ -40,7 +41,22 @@ const Section = () => {
                     <h1 className="font-averia-serif-libre text-white text-4xl font-normal">Latest Products</h1>
                 </div>
 
-                <div className="flex justify-center mt-4 product-container" >
+                <div className="flex-row mt-4 product-container" >
+
+                    <div className='flex flex-row image-container '>
+                        <img
+                            src={image1}
+                            alt="Background"
+                        />
+                        <img
+                            src={image2}
+                            alt="Background"
+                        />
+                        <img
+                            src={image3}
+                            alt="Background"
+                        />
+                    </div>
 
                 </div>
             </div>
