@@ -1,8 +1,10 @@
 import React from 'react';
 import man from '../Assets/Rectangle 26.png';
+// import image from '../Assets/Rectangle 43.png';
 import image1 from '../Assets/image 1.png';
 import image2 from '../Assets/image 4.png';
 import image3 from '../Assets/image 5.png';
+// import image4 from '../Assets/Rectangle 32.png';
 
 const Section = () => {
     return (
@@ -43,7 +45,8 @@ const Section = () => {
 
                 <div className="flex-row mt-4 product-container" >
 
-                    <div className='flex flex-row image-container '>
+                    <div className='flex flex-row image-container'>
+
                         <img
                             src={image1}
                             alt="Background"
@@ -60,7 +63,21 @@ const Section = () => {
 
                 </div>
             </div>
+            {/* 3 dots */}
 
+            <div class="flex justify-center mt-9 mb-10 place-content-evenly">
+                <div class="w-3 h-3 bg-white border border-solid border-FEE715 rounded-full mx-1"></div>
+                <div class="w-3 h-3 bg-white border border-solid border-FEE715 rounded-full mx-1"></div>
+                <div class="w-3 h-3 bg-custom-yellow border border-solid border-FEE715 rounded-full mx-1 "></div>
+                <div class="w-3 h-3 bg-white border border-solid border-FEE715 rounded-full mx-1"></div>
+            </div>
+
+            <div className="flex justify-center">
+                <h1 className="font-averia-serif-libre text-white text-4xl font-normal">Calculate Your BMI</h1>
+                <div className='my-14'>
+                    <div class="absolute left-1/2 transform -translate-x-1/2 h-1 w-32 bg-custom-yellow rounded"></div>
+                </div>
+            </div>
 
         </div>
 

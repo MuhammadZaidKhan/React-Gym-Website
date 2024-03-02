@@ -5,6 +5,8 @@ import Rectangle from "./Rectangle"
 import backgroundImage from '../Assets/image 6.png';
 // import Image from '../Assets/Div.png';
 import Section from './Section';
+import Section2 from './Section2';
+import Section3 from './Section3';
 
 const Home = () => {
     return (
@@ -19,6 +21,8 @@ const Home = () => {
             <Main />
             <Rectangle />
             <Section />
+            <Section2 />
+            <Section3 />
         </div>
     );
 };

@@ -8,6 +8,8 @@ module.exports = {
       colors: {
         // Define your custom color here
         'custom-yellow': '#FEE715',
+        "gray": "#80808073",
+        "grayy": "#808080"
       },
       fontFamily: {
         "Robot": ["Roboto"],
