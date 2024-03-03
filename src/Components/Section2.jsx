@@ -13,7 +13,7 @@ import { FaTwitter, FaYoutube, FaLinkedin, FaFacebook, FaInstagram } from 'react
 
 const Section2 = () => {
     return (
-        <div className="bg-color ">
+        <div className="bg-color min-h-screen">
             {/* Image */}
             <div className="flex">
                 <div className="custom-box relative">
