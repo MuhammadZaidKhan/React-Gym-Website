@@ -13,7 +13,6 @@ const Section = () => {
                 <div className="custom-box relative mt-36">
                     <img src={man} alt="Background" />
                 </div>
-
                 <div class="text-heading">
                     <h1 class="text-white font-black font-averia-serif-libre text-2xl">
                         Get Ready to Reach<br />
@@ -35,7 +34,11 @@ const Section = () => {
                         </button>
                     </div>
                 </div>
-
+                <div className='z-container-small'>
+                    <h1 className='font-Poppins font-bold mt-3'>
+                        <span className='ml-2'>Best Workout</span> <span className='ml-5'>Machine</span>
+                    </h1>
+                </div>
             </div>
 
             <div className="flex flex-col items-center">
