@@ -24,6 +24,7 @@ body {
 
 .bg-color {
     background: #373737;
+    min-height: 100vh;
 
 }
 
@@ -83,6 +84,14 @@ body {
     margin-top: 30px;
 }
 
+.button-container-2 {
+    /* border: 1px solid #FEE715; */
+    margin-top: 30px;
+    /* border-color: #FEE715; */
+    margin-top: 20px;
+
+}
+
 
 .z-container-1 {
     margin-left: 200px;
@@ -98,9 +107,23 @@ body {
     padding-left: 50px;
     border-radius: 20px;
     left: 3%;
-    bottom: 82%;
+    bottom: 83%;
     /* top: 20; */
-    background-color: gray;
+    background-color: #707070B5;
+    ;
+}
+
+.client-img {
+    border: 7px solid #FEE715;
+    border-radius: 50%;
+    margin-top: -5%;
+    width: 150px;
+    height: 150px;
+    margin-left: -25px;
+}
+
+.h2-p {
+    margin-top: -20%;
 }
 
 .clients-z-container {
@@ -124,20 +147,22 @@ body {
 }
 
 .product-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* width: 1200px; */
-    min-width: min-content
-        /* height: 200px; */
-        /* margin-bottom: 35px; */
+    min-width: min-content;
+    /* height: 200px; */
+    /* margin-bottom: 95px; */
 
 }
 
 .product-container-2 {
-    border: 2px solid #FEE715;
-    width: 1215px;
+    border: 4px solid #FEE715;
+    width: 1218px;
     min-width: min-content;
-    height: 300px;
-    /* margin-bottom: 35px; */
+    height: 250px;
+    margin-top: 0%;
+    /* margin-bottom: 355px; */
+    /* margin-bottom: 200px; */
 
 }
 
@@ -147,8 +172,12 @@ body {
     width: 1150px;
     height: 220px;
     justify-content: space-evenly;
-    border: #FEE715;
     /* margin-bottom: 50px; */
+}
+
+.image-container img {
+    border: 7px solid #FEE715;
+    border-radius: 20%;
 }
 
 .result-container {
@@ -168,4 +197,9 @@ body {
     /* Add margin if needed (optional): */
     /* margin-right: 10px; */
     /* Add spacing between images (optional) */
+}
+
+.image-like-container {
+    height: 200px;
+    width: 320px;
 }
