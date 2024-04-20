@@ -5,6 +5,7 @@ import Rectangle from "./Rectangle"
 import backgroundImage from '../Assets/image 6.png';
 import Section from './Section';
 import Section2 from './Section2';
+import Footer from './Footer';
 
 // import Footer from './Footer';
 
@@ -14,7 +15,6 @@ const Home = () => {
             <img
                 src={backgroundImage}
                 alt="Background"
-                // Set the full viewport dimensions to ensure the image covers the entire area
                 style={{ width: '100vw', height: '100vh', position: 'absolute', top: 0, left: 0, zIndex: -1 }}
             />
             <Navbar />
@@ -22,6 +22,7 @@ const Home = () => {
             <Rectangle />
             <Section />
             <Section2 />
+            <Footer />
         </div>
     );
 };
